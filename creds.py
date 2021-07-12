@@ -9,3 +9,4 @@ class Credentials:
     API_ID = int(os.getenv("API_ID"))  # from https://my.telegram.org/apps
     API_HASH = os.getenv("API_HASH")  # from https://my.telegram.org/apps
     START_MESSAGE = os.getenv("START_MESSAGE",None) #Not Mandatory
+    CAPTION = os.getenv("CAPTION","<b>@iruPC</b>") #Not Mandatory
