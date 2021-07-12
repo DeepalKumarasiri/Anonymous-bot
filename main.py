@@ -19,7 +19,7 @@ client = TelegramClient('Telethon Anonymous Bot',
 DEFAULT_START = ("Hey! I am ANONYMOUS SENDER BOT.\n\n"
                  "Just Forward me some messages or media and I will anonymize the sender.\n\n"
                  "Please support the developer by joining the support channel.")
-
+bottoken = Credentials.BOT_TOKEN
 if bottoken != None:
     try:
         JEBotZ = TelegramClient("bot", 6, "eb06d4abfb49dc3eeb1aeb98ae0f581e").start(bot_token=Credentials.BOT_TOKEN)
